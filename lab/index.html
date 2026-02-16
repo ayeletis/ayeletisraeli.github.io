@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Intelligence Lab | Harvard Business School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7YRTV7P327"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7YRTV7P327');
+</script>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>Customer Intelligence Lab</h1>
+                <p>Harvard Business School</p>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#team">Team</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Customer Intelligence Lab</h2>
+                <p class="hero-subtitle">We research how companies can use customer data and artificial intelligence to improve outcomes for themselves, their customers, and society at large.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership Section -->
+    <section id="leadership" class="leadership">
+        <div class="container">
+            <div class="section-header">
+                <h2>Leadership</h2>
+            </div>
+            <div class="co-pis">
+                <div class="co-pi-card">
+                    <div class="co-pi-header">
+                        <img src="images/ayelet-israeli.jpg" alt="Ayelet Israeli" class="co-pi-photo">
+                        <div class="co-pi-info">
+                            <h3>Ayelet Israeli</h3>
+                            <p class="title">Marvin Bower Associate Professor</p>
+                            <p class="affiliation">Harvard Business School</p>
+                        </div>
+                    </div>
+                    <div class="co-pi-bio">
+                        <p>Ayelet's research focuses on the value of data and AI for business decision-making,  with an emphasis on how firms can leverage their own data, customer data, and market data to improve outcomes. She translates cutting-edge research into actionable business strategies.</p>
+                        <a href="https://www.ayeletisraeli.com" class="link" target="_blank">Personal Website →</a>
+                    </div>
+                </div>
+                <div class="co-pi-card">
+                    <div class="co-pi-header">
+                        <img src="images/eva-ascarza.jpg" alt="Eva Ascarza" class="co-pi-photo">
+                        <div class="co-pi-info">
+                            <h3>Eva Ascarza</h3>
+                            <p class="title">Professor of Business Administration</p>
+                            <p class="affiliation">Harvard Business School</p>
+                        </div>
+                    </div>
+                    <div class="co-pi-bio">
+                        <p>Eva's research focuses on customer retention, personalization, and the role of AI in marketing. She is particularly interested in algorithmic bias and how companies can use data to better understand and serve their customers.</p>
+                        <a href="https://www.evaascarza.com" class="link" target="_blank">Personal Website →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Mission</h2>
+                <p class="lead">The Customer Intelligence Lab advances the scientific understanding of customer data and artificial intelligence in business. Through rigorous empirical research and methodological innovation, we develop frameworks for causal inference, experimentation, and machine learning that enable firms to optimize customer interactions while addressing critical questions of fairness, privacy, and social welfare. Our work is conducted in collaboration with organizations across sectors including technology, retail, and telecommunications.</p>
+            </div>
+
+            <div class="research-areas-overview">
+                <div class="area-column">
+                    <div class="area-icon">🤖</div>
+                    <h4>Value of Data and AI</h4>
+                    <p class="area-description">Quantifying ROI of data and AI investments and GenAI applications in marketing decision-making</p>
+                </div>
+                <div class="area-column">
+                    <div class="area-icon">➡️</div>
+                    <h4>Impact of Marketing Actions</h4>
+                    <p class="area-description">Measuring ROI and causal effects at scale using advanced experimentation and causal inference methods</p>
+                </div>
+                <div class="area-column">
+                    <div class="area-icon">🔬</div>
+                    <h4>Personalization and Experimentation</h4>
+                    <p class="area-description">A/B testing, ML-driven targeting, and personalization strategies for customer engagement</p>
+                </div>
+                <div class="area-column">
+                    <div class="area-icon">👤</div>
+                    <h4>Customer Management</h4>
+                    <p class="area-description">Customer journey optimization, CLV modeling, and retention strategies across touchpoints</p>
+                </div>
+                <div class="area-column">
+                    <div class="area-icon">⚖️</div>
+                    <h4>Responsible AI</h4>
+                    <p class="area-description">Fairness, privacy protection, and trust in customer-facing AI systems</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research</h2>
+                <p>We work at the intersection of marketing, data science, and artificial intelligence. Click on each topic below to view our publications.</p>
+            </div>
+            <div class="research-topics">
+
+                <!-- Value of Data and AI -->
+                <div class="research-topic">
+                    <div class="topic-header" onclick="toggleTopic(this)">
+                        <div class="topic-info">
+                            <span class="topic-icon">🤖</span>
+                            <div>
+                                <h3 class="topic-title">Value of Data and AI</h3>
+                                <p class="topic-blurb">What is the ROI of investing in data analytics and AI? How can companies leverage AI to make better marketing decisions? What types of data and analytical approaches create the most business value?</p>
+                            </div>
+                        </div>
+                        <span class="topic-toggle">+</span>
+                    </div>
+                    <div class="topic-papers">
+                        <div class="papers-grid">
+                           <div class="paper-card">
+                                <h4>Learning from Many Experiments: A Hierarchical Bayesian Framework</h4>
+                                <p class="authors">Ebbes, P., Ascarza, E., & Netzer, O.</p>
+                                <p class="year">2026</p>
+                                <a href="papers/ebbes_ascarza_netzer_2026-01-25.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Using LLMs for Market Research</h4>
+                                <p class="authors">Brand, J., Israeli, A., & Ngwe, D.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/Brand_israeli_Ngwe_2025-10-16.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Incrementality Prediction: Synergizing Past Experiments</h4>
+                                <p class="authors">Huang, T., Ascarza, E., & Israeli, A.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/Huang_Ascarza_Israeli_2025-11-15.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Pricing with Bandits in the Long-tail</h4>
+                                <p class="authors">Israeli, A., & Anderson, E.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/israeli_anderson_2025-07-16.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Learning When to Quit in Sales Conversations</h4>
+                                <p class="authors">Manzoor, E., Ascarza, E., & Netzer, O.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/manzoor_ascarza_netzer_2025-11-25.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Canary Categories</h4>
+                                <p class="authors">Anderson, E., Chen, C., Israeli, A., & Simester, D.</p>
+                                <p class="year">2024</p>
+                                <a href="papers/anderson-et-al-2024-canary-categories.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>The Customer Journey as a Source of Information</h4>
+                                <p class="authors">Padilla, N., Ascarza, E., & Netzer, N.</p>
+                                <p class="year">2024</p>
+                                <a href="papers/padilla_ascarza_netzer_customer_journey_QME24.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>The Value of Descriptive Analytics</h4>
+                                <p class="authors">Berman, R., & Israeli, A.</p>
+                                <p class="year">2022</p>
+                                <a href="papers/berman_israeli_2021.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>How Market Power Affects Dynamic Pricing</h4>
+                                <p class="authors">Israeli, A., Scott Morton, F., Silva-Risso, J., & Zettelmeyer, F.</p>
+                                <p class="year">2022</p>
+                                <a href="papers/israeli_et_al_2020.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Overcoming the Cold Start Problem of CRM using a Probabilistic Machine Learning Approach</h4>
+                                <p class="authors">Padilla, N., & Ascarza, E.</p>
+                                <p class="year">2021</p>
+                                <a href="papers/padilla_ascarza_jmr2021.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Impact of Marketing Actions -->
+                <div class="research-topic">
+                    <div class="topic-header" onclick="toggleTopic(this)">
+                        <div class="topic-info">
+                            <span class="topic-icon">➡️</span>
+                            <div>
+                                <h3 class="topic-title">Impact of Marketing Actions</h3>
+                                <p class="topic-blurb">What marketing interventions work best? How can companies measure and predict the incremental impact of their marketing campaigns? How do we optimize marketing spend across different channels and customer segments?</p>
+                            </div>
+                        </div>
+                        <span class="topic-toggle">+</span>
+                    </div>
+                    <div class="topic-papers">
+                        <div class="papers-grid">
+                            <div class="paper-card">
+                                <h4>Doing More With Less: Strategic Marketing Interventions</h4>
+                                <p class="authors">Huang, T., & Ascarza, E.</p>
+                                <p class="year">2024</p>
+                                <a href="papers/Huang_Ascarza_2024_doing_more_with_less.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Incrementality Prediction: Synergizing Past Experiments</h4>
+                                <p class="authors">Huang, T., Ascarza, E., & Israeli, A.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/Huang_Ascarza_Israeli_2025-11-15.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Improving Targeting with Privacy-Protected Data</h4>
+                                <p class="authors">Huang, T., & Ascarza, E.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/huang_ascarza_2025-08-18.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Personalization and Experimentation -->
+                <div class="research-topic">
+                    <div class="topic-header" onclick="toggleTopic(this)">
+                        <div class="topic-info">
+                            <span class="topic-icon">🔬</span>
+                            <div>
+                                <h3 class="topic-title">Personalization and Experimentation</h3>
+                                <p class="topic-blurb">How can firms design effective experiments to test personalization strategies? What targeting policies maximize customer value? How do we learn from past experiments to improve future targeting decisions?</p>
+                            </div>
+                        </div>
+                        <span class="topic-toggle">+</span>
+                    </div>
+                    <div class="topic-papers">
+                        <div class="papers-grid">
+                            <div class="paper-card">
+                                <h4>Learning from Many Experiments: A Hierarchical Bayesian Framework</h4>
+                                <p class="authors">Ebbes, P., Ascarza, E., & Netzer, O.</p>
+                                <p class="year">2026</p>
+                                <a href="papers/ebbes_ascarza_netzer_2026-01-25.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Dynamic Personalization with Multiple Customer Signals</h4>
+                                <p class="authors">Ma, L., Huang, T., Ascarza, E., & Israeli, A.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/ma_huang_ascarza_israeli_2025-02-05.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Incrementality Prediction: Synergizing Past Experiments</h4>
+                                <p class="authors">Huang, T., Ascarza, E., & Israeli, A.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/Huang_Ascarza_Israeli_2025-11-15.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Protected Heterogeneity: A Variance-Based Framework</h4>
+                                <p class="authors">Ahmadi, N., Ascarza, E., & Israeli, A.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/ahmadi_ascarza_israeli_2025-11-16.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Policy-Aware Experimentation</h4>
+                                <p class="authors">Chen, Y., Ascarza, E., & Netzer, O.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/chen_ascarza_netzer_2025-06-21.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Improving Targeting with Privacy-Protected Data</h4>
+                                <p class="authors">Huang, T., & Ascarza, E.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/huang_ascarza_2025-08-18.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Personalization and targeting: how to experiment, learn & optimize</h4>
+                                <p class="authors">Lemmens, A. et al.</p>
+                                <p class="year">2025</p>
+                                <a href="https://www.sciencedirect.com/science/article/pii/S016781162500062X" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Personalized Game Design for Improved User Engagement</h4>
+                                <p class="authors">Ascarza, E., Netzer, O., & Runge, J.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/Ascarza_Netzer_Runge_IJRM25.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>                            
+                            <div class="paper-card">
+                                <h4>Doing More With Less: Strategic Marketing Interventions</h4>
+                                <p class="authors">Huang, T., & Ascarza, E.</p>
+                                <p class="year">2024</p>
+                                <a href="papers/Huang_Ascarza_2024_doing_more_with_less.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Customer Management -->
+                <div class="research-topic">
+                    <div class="topic-header" onclick="toggleTopic(this)">
+                        <div class="topic-info">
+                            <span class="topic-icon">👤</span>
+                            <div>
+                                <h3 class="topic-title">Customer Management</h3>
+                                <p class="topic-blurb">How do companies retain valuable customers? What drives customer engagement and lifetime value? When should firms intervene in the customer journey, and what actions are most effective?</p>
+                            </div>
+                        </div>
+                        <span class="topic-toggle">+</span>
+                    </div>
+                    <div class="topic-papers">
+                        <div class="papers-grid">
+                            <div class="paper-card">
+                                <h4>Learning When to Quit in Sales Conversations</h4>
+                                <p class="authors">Manzoor, E., Ascarza, E., & Netzer, O.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/manzoor_ascarza_netzer_2025-11-25.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Learning from Many Experiments: A Hierarchical Bayesian Framework</h4>
+                                <p class="authors">Ebbes, P., Ascarza, E., & Netzer, O.</p>
+                                <p class="year">2026</p>
+                                <a href="papers/ebbes_ascarza_netzer_2026-01-25.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Dynamic Personalization with Multiple Customer Signals</h4>
+                                <p class="authors">Ma, L., Huang, T., Ascarza, E., & Israeli, A.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/ma_huang_ascarza_israeli_2025-02-05.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Improving Targeting with Privacy-Protected Data</h4>
+                                <p class="authors">Huang, T. & Ascarza, E.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/huang_ascarza_2025-08-18.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Policy-Aware Experimentation</h4>
+                                <p class="authors">Chen, Y., Ascarza, E., & Netzer, O.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/chen_ascarza_netzer_2025-06-21.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Incrementality Prediction: Synergizing Past Experiments</h4>
+                                <p class="authors">Huang, T., Ascarza, E., & Israeli, A.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/Huang_Ascarza_Israeli_2025-11-15.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Personalized Game Design for Improved User Engagement</h4>
+                                <p class="authors">Ascarza, E., Netzer, O., & Runge, J.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/Ascarza_Netzer_Runge_IJRM25.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>The Customer Journey as a Source of Information</h4>
+                                <p class="authors">Padilla, N., Ascarza, E., & Netzer, N.</p>
+                                <p class="year">2024</p>
+                                <a href="papers/padilla_ascarza_netzer_customer_journey_QME24.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Doing More With Less: Strategic Marketing Interventions</h4>
+                                <p class="authors">Huang, T., & Ascarza, E.</p>
+                                <p class="year">2024</p>
+                                <a href="papers/Huang_Ascarza_2024_doing_more_with_less.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Detecting Routines in Customer Behavior</h4>
+                                <p class="authors">Dew, R., Ascarza, E., Netzer, O., & Sicherman, N.</p>
+                                <p class="year">2023</p>
+                                <a href="papers/dew-et-al-2023-detecting-routines.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Overcoming the Cold Start Problem of CRM using a Probabilistic Machine Learning Approach</h4>
+                                <p class="authors">Padilla, N., & Ascarza, E.</p>
+                                <p class="year">2021</p>
+                                <a href="papers/padilla_ascarza_jmr2021.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Responsible AI -->
+                <div class="research-topic">
+                    <div class="topic-header" onclick="toggleTopic(this)">
+                        <div class="topic-info">
+                            <span class="topic-icon">⚖️</span>
+                            <div>
+                                <h3 class="topic-title">Responsible AI</h3>
+                                <p class="topic-blurb">How do we ensure AI systems are fair and unbiased? What privacy protections should companies implement? How can firms use customer data ethically while still delivering personalized experiences?</p>
+                            </div>
+                        </div>
+                        <span class="topic-toggle">+</span>
+                    </div>
+                    <div class="topic-papers">
+                        <div class="papers-grid">
+                            <div class="paper-card">
+                                <h4>Improving Targeting with Privacy-Protected Data</h4>
+                                <p class="authors">Huang, T., & Ascarza, E.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/huang_ascarza_2025-08-18.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Protected Heterogeneity: A Variance-Based Framework</h4>
+                                <p class="authors">Ahmadi, N., Ascarza, E., & Israeli, A.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/ahmadi_ascarza_israeli_2025-11-16.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>In Privacy We Trust: The Effect of Privacy Regulations</h4>
+                                <p class="authors">Demirci, O., Israeli, A., & Ascarza, E.</p>
+                                <p class="year">2025</p>
+                                <a href="papers/demirci_israeli_ascarza_2025-06-24.pdf" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                            <div class="paper-card">
+                                <h4>Eliminating Unintended Bias in Personalized Policies Using Bias Eliminating Adapted Trees (BEAT)</h4>
+                                <p class="authors">Ascarza, E., & Israeli, A. </p>
+                                <p class="year">2022</p>
+                                <a href="https://www.pnas.org/doi/epdf/10.1073/pnas.2115293119" class="paper-link" target="_blank">View Paper →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Coverage Section -->
+    <section id="media" class="media">
+        <div class="container">
+            <div class="section-header">
+                <h2>In the Media</h2>
+                <p>Our research featured in leading business publications</p>
+            </div>
+
+            <div class="media-grid">
+                <!-- Harvard Business Review -->
+                <div class="media-category">
+                    <h3 class="media-outlet">Harvard Business Review</h3>
+                    <div class="media-articles">
+                        <div class="media-article">
+                            <a href="https://hbr.org/2025/11/most-ai-initiatives-fail-this-5-part-framework-can-help" target="_blank">
+                                <h4>Most AI Initiatives Fail. This 5-Part Framework Can Help</h4>
+                            </a>
+                        </div>
+                        <div class="media-article">
+                            <a href="https://hbr.org/2025/07/using-gen-ai-for-early-stage-market-research" target="_blank">
+                                <h4>Using Gen AI for Early-Stage Market Research</h4>
+                            </a>
+                        </div>
+                        <div class="media-article">
+                            <a href="https://hbr.org/2022/09/should-your-company-sell-on-amazon" target="_blank">
+                                <h4>Should Your Company Sell on Amazon? Reach Comes at a Price</h4>
+                            </a>
+                        </div>
+                        <div class="media-article">
+                            <a href="https://hbr.org/2021/07/why-you-arent-getting-more-from-your-marketing-ai" target="_blank">
+                                <h4>Why You Aren't Getting More from Your Marketing AI</h4>
+                            </a>
+                        </div>
+                        <div class="media-article">
+                            <a href="https://hbr.org/2021/06/research-when-a-b-testing-doesnt-tell-you-the-whole-story" target="_blank">
+                                <h4>When A/B Testing Doesn't Tell You the Whole Story</h4>
+                            </a>
+                        </div>
+                        <div class="media-article">
+                            <a href="https://hbr.org/2020/03/pricing-policies-that-protect-your-brand" target="_blank">
+                                <h4>Pricing Policies that Protect Your Brand</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HBS Working Knowledge -->
+                <div class="media-category">
+                    <h3 class="media-outlet">HBS Working Knowledge</h3>
+                    <div class="media-articles">
+                        <div class="media-article">
+                            <a href="https://hbswk.hbs.edu/item/navigating-consumer-data-privacy-in-an-ai-world" target="_blank">
+                                <h4>Navigating Consumer Data Privacy in an AI World</h4>
+                            </a>
+                        </div>
+                        <div class="media-article">
+                            <a href="https://www.library.hbs.edu/working-knowledge/can-ai-predict-whether-shoppers-would-pick-crest-over-colgate" target="_blank">
+                                <h4>Can AI Predict Whether Shoppers Would Pick Crest or Colgate?</h4>
+                            </a>
+                        </div>        
+                        <div class="media-article">
+                            <a href="https://www.library.hbs.edu/working-knowledge/is-ai-coming-for-your-job" target="_blank">
+                                <h4>Is AI Coming for Your Job?</h4>
+                            </a>
+                        </div>        
+                        <div class="media-article">
+                            <a href="https://hbswk.hbs.edu/item/when-bias-creeps-into-ai-managers-can-stop-it-by-asking-the-right-questions" target="_blank">
+                                <h4>When Bias Creeps Into AI, Managers Can Stop It</h4>
+                            </a>
+                        </div>
+                        <div class="media-article">
+                            <a href="https://hbswk.hbs.edu/item/identify-great-customers-from-their-first-purchase" target="_blank">
+                                <h4>Identify Great Customers from Their First Purchase</h4>
+                            </a>
+                        </div>
+                        <div class="media-article">
+                            <a href="https://hbswk.hbs.edu/item/beyond-pajamas-sizing-up-the-pandemic-shopper" target="_blank">
+                                <h4>Beyond Pajamas: Sizing Up the Pandemic Shopper</h4>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                 <!-- Other Outlets -->
+                <div class="media-category">
+                    <h3 class="media-outlet">Other Outlets</h3>
+                    <div class="media-articles">
+                        <div class="media-article">
+                            <a href="https://www.science.org/content/article/can-ai-chatbots-replace-human-subjects-behavioral-experiments" target="_blank">
+                                <h4>Guinea pigbots</h4>
+                                <p>Science</p>
+                            </a>
+                        </div>
+                        <div class="media-article">
+                            <a href="https://sloanreview.mit.edu/audio/marketing-with-generative-ai-harvard-business-schools-ayelet-israeli/" target="_blank">
+                                <h4>Marketing With Generative AI</h4>
+                                <p>Me, Myself, and AI Podcast | MIT Sloan Management Review</p>
+                            </a>
+                        </div>        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Team</h2>
+            </div>
+
+            <!-- Co-Directors -->
+            <div class="team-section">
+                <h3 class="team-section-title">Co-Directors</h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Ayelet Israeli</h4>
+                            <p class="member-title">Marvin Bower Associate Professor</p>
+                            <p class="member-affiliation">Harvard Business School</p>
+                            <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=766753" target="_blank">HBS Profile →</a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Eva Ascarza</h4>
+                            <p class="member-title">Professor of Business Administration</p>
+                            <p class="member-affiliation">Harvard Business School</p>
+                            <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=766753" target="_blank">HBS Profile →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lab Members -->
+            <div class="team-section">
+                <h3 class="team-section-title">Lab Members</h3>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Isamar Troncoso</h4>
+                            <p class="member-title">Assistant Professor</p>
+                            <a href="https://www.isamartroncoso.com/" target="_blank">Website →</a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Madhav Kumar</h4>
+                            <p class="member-title">Assistant Professor</p>
+                            <a href="https://www.madhavkumar.com/" target="_blank">Website →</a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Poet Larsen</h4>
+                            <p class="member-title">Postdoctoral Fellow</p>
+                            <a href="https://sites.google.com/view/poet-larsen/home" target="_blank">Website →</a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Liangzhong Ma</h4>
+                            <p class="member-title">PhD Student</p>
+                            <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1503742" target="_blank">Profile →</a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Zhongming Jiang</h4>
+                            <p class="member-title">PhD Student</p>
+                            <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1543687" target="_blank">Profile →</a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Noah Ahmadi</h4>
+                            <p class="member-title">PhD Student, MIT Sloan</p>
+                            <a href="https://mitsloan.mit.edu/programs/phd/noah-ahmadi" target="_blank">Profile →</a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Victoria Zhang</h4>
+                            <p class="member-title">Predoctoral Fellow</p>
+                            <a href="https://www.linkedin.com/in/victoria-zhang-ab3110148/" target="_blank">LinkedIn →</a>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-info">
+                            <h4>Xiaowei Guo</h4>
+                            <p class="member-title">Predoctoral Fellow</p>
+                            <a href="https://d3.harvard.edu/our-team/xiaowei-guo/" target="_blank">Profile →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Customer Intelligence Lab</h4>
+                    <p>Digital Data Design (D³) Institute</p>
+                    <p>Harvard Business School</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="https://d3.harvard.edu/labs/customer-intelligence-lab/" target="_blank">Customer Intelligence Lab @ D³ Institute</a></li>
+                        <li><a href="https://d3.harvard.edu/" target="_blank">D³ Institute</a></li>
+                        <li><a href="https://www.hbs.edu/" target="_blank">Harvard Business School</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Eva Ascarza and Ayelet Israeli. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

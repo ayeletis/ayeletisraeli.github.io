@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+/* Black Top Banner */
+.top-banner {
+    background-color: #000;
+    color: #fff;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.banner-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.banner-title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-title a:hover {
+    color: #ccc;
+}
+
+.main-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-nav a:hover {
+    color: #ccc;
+}
+
+/* Container */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 60px;
+}
+
+section:first-child {
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+h3.subsection-title {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+h3.subsection-title:first-of-type {
+    margin-top: 10px;
+}
+
+/* About Section */
+.about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-text strong {
+    font-weight: 600;
+}
+
+.about-text a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.about-text a:hover {
+    text-decoration: underline;
+}
+
+.contact-info {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.about-image {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    width: 400px;
+}
+
+.photo-credit {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+    font-style: italic;
+    text-align: left;
+    width: 400px;
+    max-width: 100%;
+}
+}
+
+/* Research Section */
+.paper {
+    margin-bottom: 20px;
+}
+
+.paper-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 3px;
+    color: #000;
+}
+
+.paper-title a {
+    font-weight: normal;
+}
+
+.paper-authors {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 3px;
+}
+
+.paper-links {
+    margin-bottom: 3px;
+}
+
+.paper-links a {
+    color: #0066cc;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.paper-links a:hover {
+    text-decoration: underline;
+}
+
+.paper-venue {
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.award {
+    font-size: 15px;
+    font-style: italic;
+    color: #888;
+    margin-top: 3px;
+}
+
+/* Abstract Details */
+details {
+    margin-top: 3px;
+}
+
+summary {
+    cursor: pointer;
+    font-size: 15px;
+    color: #0066cc;
+    user-select: none;
+}
+
+summary:hover {
+    text-decoration: underline;
+}
+
+.abstract {
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #ddd;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .banner-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .banner-title {
+        font-size: 20px;
+    }
+    
+    .main-nav {
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 14px;
+    }
+    
+    .container {
+        padding: 30px 15px;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .about-image {
+        order: -1;
+    }
+}
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
